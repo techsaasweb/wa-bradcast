@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "build-client": "cd client && npm run build",
+    "start": "concurrently \"npm run dev-server\" \"npm run dev-client\"",
+    "dev-server": "cd server && node index.js",
+    "dev-client": "cd client && npm run dev"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
