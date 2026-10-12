@@ -44,3 +44,7 @@ Thumbs.db
 
 # Puppeteer / Browser Cache
 .cache/
+
+# Anti-ban state harian (data lokal, bukan kode)
+server/.antiban/
+server/.wwebjs_cache/*.html
